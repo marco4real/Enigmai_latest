@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Digital Keypad System/PackageAssets/DemoScene.unity
+  isLoaded: 1
+  isActive: 1
