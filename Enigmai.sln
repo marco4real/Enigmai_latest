@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enigmai", "Enigmai.csproj", "{7CCB5FBD-8888-4D45-FB90-AED4A2F69B5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enigmai.Editor", "Enigmai.Editor.csproj", "{FD9A767E-E31C-9F5F-80D7-C64EA04C6CB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7CCB5FBD-8888-4D45-FB90-AED4A2F69B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CCB5FBD-8888-4D45-FB90-AED4A2F69B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CCB5FBD-8888-4D45-FB90-AED4A2F69B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CCB5FBD-8888-4D45-FB90-AED4A2F69B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9A767E-E31C-9F5F-80D7-C64EA04C6CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9A767E-E31C-9F5F-80D7-C64EA04C6CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9A767E-E31C-9F5F-80D7-C64EA04C6CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9A767E-E31C-9F5F-80D7-C64EA04C6CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
