@@ -34,8 +34,8 @@ public class HDK_Footsteps : MonoBehaviour
 	{
 		if(currentGround != ground.name)
 		{
-			FPC.FootstepSounds = ground.footstepsounds;
-			FPC.WalkSpeed = ground.walkSpeed;
+			FPC.m_FootstepSounds = ground.footstepsounds;
+			FPC.m_WalkSpeed = ground.walkSpeed;
 			FPC.m_RunSpeed = ground.runSpeed;
 			currentGround = ground.name;
             if (!FPC.onLadder)

@@ -338,7 +338,7 @@ public class HDK_FireWeapon : MonoBehaviour
 
         if (!reading && !examining && !security && !paused && !inventory)
         {
-            if (Input.GetButton("WeaponAim") && !reloading && selected && !FindObjectOfType<FirstPersonController>().isRunning)
+            if (Input.GetButton("WeaponAim") && !reloading && selected && !FindObjectOfType<FirstPersonController>().m_IsWalking)
             {
                 if (!aiming)
                 {

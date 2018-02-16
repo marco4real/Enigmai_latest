@@ -1,0 +1,414 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WebModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticlesLegacyModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll"
+-r:Library/FacebookSDK/Facebook.Unity.Settings.dll
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll"
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-r:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+-r:"C:/Users/Sagming Marcel/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll"
+-r:"C:/Users/Sagming Marcel/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/Editor/UnityEditor.Advertisements.dll"
+-r:"C:/Users/Sagming Marcel/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll"
+-r:"C:/Users/Sagming Marcel/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/Editor/UnityEditor.Analytics.dll"
+-r:"C:/Users/Sagming Marcel/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll"
+-r:"C:/Users/Sagming Marcel/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/Editor/UnityEditor.Purchasing.dll"
+-r:"C:/Users/Sagming Marcel/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_3_0
+-define:UNITY_2017_3
+-define:UNITY_2017
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:UNITY_ANALYTICS
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_VSTU
+-define:CROSS_PLATFORM_INPUT
+"Assets/Digital Keypad System/PackageAssets/Scripts/CanvasInteract.cs"
+"Assets/Digital Keypad System/PackageAssets/Scripts/KeyController.cs"
+"Assets/Digital Keypad System/PackageAssets/Scripts/KeyPadController.cs"
+"Assets/Digital Keypad System/PackageAssets/Scripts/KeyPadRay.cs"
+"Assets/Digital Keypad System/PackageAssets/Scripts/OpenDoor.cs"
+"Assets/Hamming Levers/PackageAssets/Scripts/InteractObject.cs"
+"Assets/Hamming Levers/PackageAssets/Scripts/LeverController.cs"
+"Assets/Hamming Levers/PackageAssets/Scripts/LeverScript.cs"
+"Assets/Hamming Levers/PackageAssets/Scripts/RaycastManager_Lever.cs"
+"Assets/Horror Development Kit/Package Content/Other/Plugins/Pixelplacement/iTween/iTween.cs"
+"Assets/Horror Development Kit/Package Content/Other/Plugins/Pixelplacement/iTween/Sample/MoveSample.cs"
+"Assets/Horror Development Kit/Package Content/Other/Plugins/Pixelplacement/iTween/Sample/RotateSample.cs"
+"Assets/Horror Development Kit/Package Content/Other/Plugins/Pixelplacement/iTween/Sample/SampleInfo.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Integrations/HDK_VehicleManager.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/HDK_AIDamageTrigger.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/HDK_AISensor.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/HDK_AIState.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/HDK_AIStateMachine.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/HDK_AIWaypointNetwork.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/HDK_AIZombieState.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/HDK_AIZombieState_Alerted.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/HDK_AIZombieState_Attack.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/HDK_AIZombieState_Feeding.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/HDK_AIZombieState_Idle.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/HDK_AIZombieState_Patrol.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/HDK_AIZombieState_Pursuit.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/HDK_AIZombieStateMachine.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/HDK_MeleeZoneTrigger.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/State Machine Behaviours/HDK_AIStateMachineLink.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/State Machine Behaviours/HDK_CinematicEnabler.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/AI/State Machine Behaviours/HDK_RootMotionConfigurator.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Headbob System/Scripts/HeadBobController.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Interactables/HDK_DraggableDoor.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Interactables/HDK_Drawer.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Interactables/HDK_InteractObject.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Interactables/HDK_InventoryItem.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Interactables/HDK_NormalDoor.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Interactables/HDK_Note.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Interactables/HDK_PlayableAudio.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Interactables/HDK_SecurityMonitor.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Interactables/HDK_SwitchableLamp.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Items/HDK_DigitalCamera.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Items/HDK_FireWeapon.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Items/HDK_Flashlight.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Items/HDK_MeleeWeapon.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Managers/HDK_InventoryManager.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Managers/HDK_PauseManager.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Managers/HDK_RaycastManager.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Managers/HDK_UITextManager.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Managers/HDK_WeaponsManager.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/GameSceneManager.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_ActiveOnStart.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_Billboard.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_CameraBloodEffect.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_CameraShake.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_CameraStates.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_CharacterAnimations.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_DeadInstance.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_DoorBarricade.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_ExaminableObjectSettings.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_ExamineRotation.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_Footsteps.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_Hiding.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_InventorySlot.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_Leaning.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_LightFlicker.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_LoadingScreen.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_MouseLook.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_MouseZoom.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_OpenLinkOnClick.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_PlayerHealth.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_SecurityCamera.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_SimpleMenu.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_StabilizeKickback.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_Stamina.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_UIFade.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_WithEmission.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Others/HDK_WithNoEmission.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Trigger Events/HDK_AnimatedJumpscare.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Trigger Events/HDK_BrokeCamera.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Trigger Events/HDK_DamageTrigger.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Trigger Events/HDK_HidingZone.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Trigger Events/HDK_Jumpscare2D.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Trigger Events/HDK_LoadScene.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Main/Trigger Events/HDK_SoundJumpscare.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Misc/animSpeed.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Misc/CamRotat.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Misc/DestroyAfter.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Misc/Glitch/GlitchEffect.cs"
+"Assets/Horror Development Kit/Package Content/Scripts/Misc/SwayWeapon.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Attributes/GetSetAttribute.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Attributes/MinAttribute.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Attributes/TrackballAttribute.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Attributes/TrackballGroupAttribute.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Components/AmbientOcclusionComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Components/BloomComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Components/BuiltinDebugViewsComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Components/ChromaticAberrationComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Components/ColorGradingComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Components/DepthOfFieldComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Components/DitheringComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Components/EyeAdaptationComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Components/FogComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Components/FxaaComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Components/GrainComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Components/MotionBlurComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Components/ScreenSpaceReflectionComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Components/TaaComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Components/UserLutComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Components/VignetteComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Models/AmbientOcclusionModel.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Models/AntialiasingModel.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Models/BloomModel.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Models/BuiltinDebugViewsModel.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Models/ChromaticAberrationModel.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Models/ColorGradingModel.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Models/DepthOfFieldModel.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Models/DitheringModel.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Models/EyeAdaptationModel.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Models/FogModel.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Models/GrainModel.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Models/MotionBlurModel.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Models/ScreenSpaceReflectionModel.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Models/UserLutModel.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Models/VignetteModel.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/PostProcessingBehaviour.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/PostProcessingComponent.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/PostProcessingContext.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/PostProcessingModel.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/PostProcessingProfile.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Utils/ColorGradingCurve.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Utils/GraphicsUtils.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Utils/MaterialFactory.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Runtime/Utils/RenderTextureFactory.cs"
+"Assets/Horror Development Kit/Unity Assets/PostProcessing/Utilities/CustomMotionTexture/ExampleWheelController.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/FirstPersonController.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/HeadBob.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/MouseLook.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Characters/FirstPersonCharacter/Scripts/RigidbodyFirstPersonController.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Characters/RollerBall/Scripts/Ball.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Characters/RollerBall/Scripts/BallUserControl.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/AICharacterControl.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonUserControl.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/Antialiasing.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/Bloom.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/BloomAndFlares.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/Blur.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/BlurOptimized.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/CameraMotionBlur.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/ContrastStretch.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/CreaseShading.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/EdgeDetection.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/Grayscale.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/ImageEffects.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/MotionBlur.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndGrain.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/NoiseAndScratches.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsBase.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/PostEffectsHelper.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/Quads.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenOverlay.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/SepiaTone.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/SunShafts.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/Tonemapping.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/Triangles.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/Twirl.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Effects/ImageEffects/Scripts/Vortex.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/ActivateTrigger.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/AlphaButtonClickMask.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/AutoMobileShaderSwitch.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/AutoMoveAndRotate.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/CameraRefocus.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/CurveControlledBob.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/DragRigidbody.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/DynamicShadowSettings.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/EventSystemChecker.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/FollowTarget.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/ForcedReset.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/FOVKick.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/FPSCounter.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/LerpControlledBob.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/ObjectResetter.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/ParticleSystemDestroyer.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/PlatformSpecificContent.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/SimpleActivatorMenu.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/SimpleMouseRotator.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/SmoothFollow.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/TimedObjectActivator.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/TimedObjectDestructor.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/WaypointCircuit.cs"
+"Assets/Horror Development Kit/Unity Assets/Standard Assets/Utility/WaypointProgressTracker.cs"
+Assets/PyroParticles/Demo/DemoScript.cs
+Assets/PyroParticles/Demo/DemoScriptEditor.cs
+Assets/PyroParticles/Prefab/Script/FireBaseScript.cs
+Assets/PyroParticles/Prefab/Script/FireCollisionForwardScript.cs
+Assets/PyroParticles/Prefab/Script/FireConstantBaseScript.cs
+Assets/PyroParticles/Prefab/Script/FireLightScript.cs
+Assets/PyroParticles/Prefab/Script/FireProjectileScript.cs
+Assets/PyroParticles/Prefab/Script/MeteorSwarmScript.cs
+Assets/PyroParticles/Prefab/Script/SingleLineAttribute.cs
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\Mono\lib\mono\unity\Boo.Lang.dll"
+-sdk:unity

@@ -450,7 +450,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 		    IsRun = false;
 		    IsIdle = true;
 	    }
-	    if (Player.GetComponent<FirstPersonController> ().isRunning) {
+	    if (!Player.GetComponent<FirstPersonController> ().m_IsWalking) {
 		    IsWalk = false;
 		    IsRun = true;
 	    }
@@ -458,8 +458,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
 	    {
 		    IsRun = false;
 	    }
-	    if (Player.GetComponent<FirstPersonController> ().isRunning && !Player.GetComponent<FirstPersonController>().CanRun)
-	    {
+            //if (Player.GetComponent<FirstPersonController> ().isRunning && !Player.GetComponent<FirstPersonController>().CanRun)
+            if (Player.GetComponent<FirstPersonController>().m_IsWalking)
+            {
 		    IsWalk = true;
 		    IsRun = false;
 		    IsIdle = false;

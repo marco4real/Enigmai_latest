@@ -5,8 +5,8 @@ using System.Collections;
 
 public class KeyController : MonoBehaviour
 {
-    private KeyPadController kpController;
-    private KeyPadRay kpRay;
+    private KeyPadController kpController = new KeyPadController();
+    private KeyPadRay kpRay = new KeyPadRay();
 
     void Start()
     {

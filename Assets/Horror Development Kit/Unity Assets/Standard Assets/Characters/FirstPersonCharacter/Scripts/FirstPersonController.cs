@@ -12,8 +12,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
     {
         [SerializeField] public bool m_IsWalking;
         [SerializeField] public float m_WalkSpeed;
-        [SerializeField] public float RunSpeed;
-        internal float m_RunSpeed;
+        [SerializeField] public float m_RunSpeed;
         [SerializeField] [Range(0f, 1f)] public float m_RunstepLenghten;
         [SerializeField] public float m_JumpSpeed;
         [SerializeField] public float m_StickToGroundForce;
@@ -29,7 +28,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] public AudioClip m_JumpSound;           // the sound played when character leaves the ground.
         [SerializeField] public AudioClip m_LandSound;           // the sound played when character touches back on ground.
 
-        public Camera m_Camera;
+        public Camera m_Camera = new Camera();
         public bool m_Jump;
         public float m_YRotation;
         public Vector2 m_Input;
@@ -42,13 +41,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public float m_NextStep;
         public bool m_Jumping;
         public AudioSource m_AudioSource;
-        internal bool isRunning;
-        internal bool onLadder;
+        internal bool CanRun;
+        internal readonly bool onLadder;
 
-        public object CharacterController { get; internal set; }
-        public bool CanRun { get; internal set; }
-        public AudioClip[] FootstepSounds { get; internal set; }
-        public float WalkSpeed { get; internal set; }
+        public bool isRunning { get; internal set; }
         public bool Backwards { get; internal set; }
 
         // Use this for initialization
@@ -224,7 +220,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_IsWalking = !Input.GetKey(KeyCode.LeftShift);
 #endif
             // set the desired speed to be walking or running
-            speed = m_IsWalking ? m_WalkSpeed : RunSpeed;
+            speed = m_IsWalking ? m_WalkSpeed : m_RunSpeed;
             m_Input = new Vector2(horizontal, vertical);
 
             // normalize input if it exceeds 1 in combined length:

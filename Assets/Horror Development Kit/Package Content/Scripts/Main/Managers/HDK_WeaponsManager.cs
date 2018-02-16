@@ -192,7 +192,7 @@ public class HDK_WeaponsManager : MonoBehaviour
             IsRun = false;
             IsIdle = true;
         }
-        if (Player.GetComponent<FirstPersonController>().isRunning)
+        if (!Player.GetComponent<FirstPersonController>().m_IsWalking)
         {
             IsWalk = false;
             IsRun = true;
@@ -201,7 +201,8 @@ public class HDK_WeaponsManager : MonoBehaviour
         {
             IsRun = false;
         }
-        if (Player.GetComponent<FirstPersonController>().isRunning && !Player.GetComponent<FirstPersonController>().CanRun)
+        //if (Player.GetComponent<FirstPersonController>().isRunning && !Player.GetComponent<FirstPersonController>().CanRun)
+        if (Player.GetComponent<FirstPersonController>().m_IsWalking)
         {
             IsWalk = true;
             IsRun = false;

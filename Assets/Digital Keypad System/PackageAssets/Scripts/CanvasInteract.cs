@@ -8,6 +8,19 @@ public class CanvasInteract : MonoBehaviour
 {
     [SerializeField] private Canvas keyPadCanvas;
 
+    public Canvas KeyPadCanvas
+    {
+        get
+        {
+            return keyPadCanvas;
+        }
+
+        set
+        {
+            keyPadCanvas = value;
+        }
+    }
+
     public void CanvasOn()
     {
         keyPadCanvas.enabled = true;
